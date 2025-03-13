@@ -2,6 +2,7 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
+import Card from './components/Card'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -10,6 +11,8 @@ function App() {
   return (
     <section>
         <h1>Hola Mundo</h1>
+        <Card title="Titulo" description="Desc" />
+        <Card title="Titulo 1" description="Desc 2" />
         <ul>
             {
                 items.map((item, index) => (
